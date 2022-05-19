@@ -67,7 +67,7 @@ Route::prefix('admin')->group(function () {
 //GET Faq & About
 Route::get('/faq', function () {
     return view('faq', [
-        "title" => "FAQ (Frequently Ask Question)"
+        "title" => "FAQ (Frequently As Question)"
     ]);
 });
 Route::get('/about', function () {
