@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -32,7 +31,7 @@ Route::get('/register', function () {
 Route::prefix('user')->group(function () {
 
     Route::get('/dashboard', function () {
-        return view('user.user_Dashboard', [
+        return view('user.Dashboard', [
             "title" => "Dashboard",
         ]);
     });
@@ -75,12 +74,7 @@ Route::get('/about', function () {
         "title" => "About"
     ]);
 });
-
-
 //=============================================
-
-
-
 Route::get('/test', function () {
     return view('layouts/mainAdmin', [
         "title" => "About"

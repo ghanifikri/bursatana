@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>Bursatana | {{ $title }}</title>
     <!-- Icon Website -->
-    <link rel="icon" type="image/png" sizes="36x36" href="/vendors/images/logo-bursatana.png">
+    {{-- <link rel="icon" type="image/png" sizes="36x36" href="/vendors/images/logo-bursatana.png"> --}}
 
     <!-- Spesifikasi Meta Mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -114,20 +114,12 @@
         <div class="mobile-menu-overlay"></div>
 
         @yield('user_container')
-        </div>
-        <div id="css">
-            Copyright © 2022 All Rights Reserved by <a href="http://127.0.0.1:8000/">Bursatana</a>
-        </div>
     </div>
-    <style>
-        #css {
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-            text-align: center
-            /* Height of the footer*/ 
-        }
-    </style>
+    <div id="css">
+        Copyright © 2022 All Rights Reserved by <a href="http://127.0.0.1:8000/">Bursatana</a>
+    </div>
+    </div>
+
 
 
     <!-- js -->

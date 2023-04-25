@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <title>Bursatana | {{ $title }}</title>
     <!-- Icon Website -->
-    <link rel="icon" type="image/png" sizes="36x36" href="/vendors/images/logo-bursatana.png">
+    {{-- <link rel="icon" type="image/png" sizes="36x36" href="/vendors/images/logo-bursatana.png"> --}}
 
     <!-- Spesifikasi Meta Mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
